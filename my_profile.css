@@ -18,55 +18,73 @@ p strong {
   color: #2493df;
 }*/
 .section {
-  padding: 10px;
-  background-color: #1E1E1E;
-  color: #9CDCFE; /*светло-синий*/
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #9cdcfe; /*светло-синий*/
 }
 body {
-  background-color: #e0e0e0; /*почти черный*/
+  background-color: goldenrod;
   /*background-color: #333333; темно-серый*/
-
+}
+#soft {
+  color: #e0e0e0; /*почти белый*/
 }
 b {
-color: #CE9178; /*светло-коричневый*/
+  color: #ce9178; /*светло-коричневый*/
 }
 h1 {
-/*color: #FF8C00; золотистый*/
-color: gold; /*золото*/
-text-shadow: 3px 2px 3px blue;
+  /*color: #FF8C00; золотистый*/
+  color: gold; /*золото*/
+  text-shadow: 3px 2px 2px blue;
 }
 h2 {
-color: #FF8C00; /*золотистый*/
+  color: #ff8c00; /*золотистый*/
 }
 h3 {
-color: #6A9955; /*зеленый*/
+  color: #6a9955; /*зеленый*/
 }
-
+input,
+textarea {
+  background-color: #e0e0e0; /*почти белый*/
+  color: blue;
+}
 .copyright {
-color: #595959;
-/*color: #6A9955; зеленый*/
-padding-left: 10px;
+  color: #595959;
+  /*color: #6A9955; зеленый*/
+  padding-left: 20px;
 }
 strong {
-color: #569CD6; /*синий*/
-/*color: #6A9955; зеленый*/
-/*color: #D4D4D4; светло-серый*/
+  color: #569cd6; /*синий*/
+  /*color: #6A9955; зеленый*/
+  /*color: #D4D4D4; светло-серый*/
 }
 li {
-color: #9CDCFE; /*светло-синий*/
-/*color: #CE9178; светло-коричневый*/
+  color: #9cdcfe; /*светло-синий*/
+  /*color: #CE9178; светло-коричневый*/
 }
 #row {
-/*color: #569CD6; синий*/
-color: #CE9178; /*светло-коричневый*/
+  /*color: #569CD6; синий*/
+  color: #ce9178; /*светло-коричневый*/
 }
 .img {
-border: 3px ridge #FF8C00;
+  border: 3px ridge #ff8c00;
 }
 .table {
-border: 3px ridge #FF8C00;
+  border: 3px ridge #ff8c00;
 }
-  /*#buy {
+a {
+  color: #ce9178; /*светло-коричневый*/
+  /* text-decoration: underline; */
+}
+a:hover {
+  /* background-color: blue; */
+  border-bottom: 1px solid white;
+}
+a:visited {
+  color: #569cd6; /*синий*/
+}
+
+/*#buy {
   background-color: #687373;
   margin-top: 10px;
   padding: 10px;
