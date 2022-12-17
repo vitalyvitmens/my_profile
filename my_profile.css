@@ -1,5 +1,6 @@
 ﻿body {
-  background-color: goldenrod;
+  background-color: #e0e0e0;
+  font-size: 20px;
 }
 .section {
   padding: 20px;
@@ -8,7 +9,7 @@
 }
 h1 {
   color: gold;
-  text-shadow: 3px 2px 2px blue;
+  text-shadow: 3px 2px 3px blue;
 }
 h2 {
   color: #ff8c00;
@@ -24,6 +25,7 @@ textarea {
 
 #soft {
   color: #e0e0e0;
+  font-size: 20px;
 }
 b {
   color: #ce9178;
@@ -45,6 +47,7 @@ a:visited {
 }
 #row {
   color: #ce9178;
+  font-size: 24px;
 }
 .img {
   border: 3px ridge #ff8c00;
