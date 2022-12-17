@@ -1,70 +1,50 @@
-﻿/*h1 {
-  font-size: 20px;
-  letter-spacing: 2px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+﻿body {
+  background-color: goldenrod;
 }
-label {
-  font-size: 16px;
-  font-weight: bold;
-}
-footer {
-  color: #595959;
-  font-size: 14px;
-  text-align: center;
-  margin-top: 10px;
-}
-p strong {
-  color: #2493df;
-}*/
 .section {
   padding: 20px;
   background-color: #1e1e1e;
-  color: #9cdcfe; /*светло-синий*/
-}
-body {
-  background-color: goldenrod;
-  /*background-color: #333333; темно-серый*/
-}
-#soft {
-  color: #e0e0e0; /*почти белый*/
-}
-b {
-  color: #ce9178; /*светло-коричневый*/
+  color: #9cdcfe;
 }
 h1 {
-  /*color: #FF8C00; золотистый*/
-  color: gold; /*золото*/
+  color: gold;
   text-shadow: 3px 2px 2px blue;
 }
 h2 {
-  color: #ff8c00; /*золотистый*/
+  color: #ff8c00;
 }
 h3 {
-  color: #6a9955; /*зеленый*/
+  color: #6a9955;
 }
 input,
 textarea {
-  background-color: #e0e0e0; /*почти белый*/
+  background-color: #e0e0e0;
   color: blue;
 }
-.copyright {
-  color: #595959;
-  /*color: #6A9955; зеленый*/
-  padding-left: 20px;
+
+#soft {
+  color: #e0e0e0;
+}
+b {
+  color: #ce9178;
 }
 strong {
-  color: #569cd6; /*синий*/
-  /*color: #6A9955; зеленый*/
-  /*color: #D4D4D4; светло-серый*/
+  color: #569cd6;
 }
 li {
-  color: #9cdcfe; /*светло-синий*/
-  /*color: #CE9178; светло-коричневый*/
+  color: #9cdcfe;
+}
+a {
+  color: #ce9178;
+}
+a:hover {
+  border-bottom: 1px solid white;
+}
+a:visited {
+  color: #569cd6;
 }
 #row {
-  /*color: #569CD6; синий*/
-  color: #ce9178; /*светло-коричневый*/
+  color: #ce9178;
 }
 .img {
   border: 3px ridge #ff8c00;
@@ -72,29 +52,7 @@ li {
 .table {
   border: 3px ridge #ff8c00;
 }
-a {
-  color: #ce9178; /*светло-коричневый*/
-  /* text-decoration: underline; */
+.copyright {
+  color: #595959;
+  padding-left: 20px;
 }
-a:hover {
-  /* background-color: blue; */
-  border-bottom: 1px solid white;
-}
-a:visited {
-  color: #569cd6; /*синий*/
-}
-
-/*#buy {
-  background-color: #687373;
-  margin-top: 10px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  color: #fcfcfc;
-}
-ul {
-  list-style-type: square;
-  list-style-position: inside;
-  list-style-image: none;
-  padding-left: 30px;
-}*/
