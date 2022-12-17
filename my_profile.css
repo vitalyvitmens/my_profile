@@ -1,4 +1,4 @@
-﻿body {
+body {
   background-color: #e0e0e0;
   font-size: 20px;
 }
@@ -21,12 +21,26 @@ h2 {
 h3 {
   color: #6a9955;
 }
-input,
-textarea {
+input[type='text'],
+input[type='email'],
+textarea[type='text'] {
   background-color: #e0e0e0;
   color: blue;
+  padding: 5px;
+  border: 3px solid green;
+  border-radius: 5px;
 }
-
+input[type='submit'] {
+  background-color: green;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+input[type='submit']:hover {
+  background-color: gray;
+}
 #soft {
   color: #e0e0e0;
   font-size: 20px;
