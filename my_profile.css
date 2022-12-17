@@ -3,6 +3,10 @@
   font-size: 20px;
 }
 .section {
+  width: auto;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 20px;
   background-color: #1e1e1e;
   color: #9cdcfe;
