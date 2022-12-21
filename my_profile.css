@@ -84,3 +84,5 @@ li cite:before {
   margin-right: 5px;
   padding-left: 10px;
 }
+@media screen and (max-width: 480px) {
+}
