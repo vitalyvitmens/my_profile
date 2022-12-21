@@ -10,6 +10,8 @@
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: -5px 6px 4px rgb(92, 91, 91);
 }
 h1 {
   color: gold;
@@ -76,4 +78,9 @@ a:visited {
 .copyright {
   color: #595959;
   padding-left: 20px;
+}
+li cite:before {
+  content: '–';
+  margin-right: 5px;
+  padding-left: 10px;
 }
