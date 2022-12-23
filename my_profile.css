@@ -43,10 +43,17 @@ input[type='submit'] {
 input[type='submit']:hover {
   background-color: gray;
 }
-#soft {
+#soft1 {
   color: #e0e0e0;
   font-size: 20px;
+  position: relative;
 }
+#soft2 {
+  color: #e0e0e0;
+  font-size: 20px;
+  position: relative;
+}
+
 b {
   color: #ce9178;
 }
