@@ -6,6 +6,14 @@ body {
   background-color: #e0e0e0;
   font-size: 1.25rem;
 }
+#cite {
+  color: #9cdcfe;
+  text-decoration: none;
+}
+#cite:hover {
+  color: #569cd6;
+  border-bottom: none;
+}
 .section {
   background-color: #1e1e1e;
   color: #9cdcfe;
