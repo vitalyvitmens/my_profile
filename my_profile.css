@@ -1,5 +1,5 @@
 ﻿html {
-  width: auto;
+  width: fit-content;
   font-size: 16px;
 }
 body {
@@ -96,7 +96,7 @@ li cite:before {
 }
 @media screen and (max-width: 480px) {
   html {
-    width: auto;
+    width: fit-content;
     font-size: 12px;
   }
   body {
