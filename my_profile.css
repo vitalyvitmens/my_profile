@@ -1,11 +1,31 @@
-﻿html {
-  font-size: 16px;
-}
+﻿@import url('https://fonts.googleapis.com/css?family=Handlee');
+
 body {
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 16px;
   width: fit-content;
   background-color: #e0e0e0;
   font-size: 1.25rem;
 }
+.container {
+  /* max-width: 750px; */
+  margin: auto;
+}
+
+.container h2, h3 {
+  padding: 0px 20px;
+}
+#header {
+  padding-left: 40px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  border: 2px solid gold;
+  box-shadow: -5px 4px 4px rgba(92, 91, 91, 0.8);
+}
+
 #cite {
   color: #9cdcfe;
   text-decoration: none;
@@ -24,6 +44,9 @@ body {
   border-radius: 10px;
   box-shadow: -5px 6px 4px rgb(92, 91, 91);
 }
+.summary p, .course {
+  padding-left: 20px;
+}
 h1 {
   color: gold;
   text-shadow: 3px 2px 3px blue;
@@ -33,6 +56,14 @@ h2 {
 }
 h3 {
   color: #6a9955;
+}
+.media {
+  padding-left: 20px;
+}
+.media iframe {
+  border: 1.5px solid #ff8c00;
+  border-radius: 10px;
+
 }
 input[type='text'],
 input[type='email'],
@@ -90,18 +121,27 @@ a:visited {
 .img {
   border: 3px ridge #ff8c00;
 }
-.table {
+.table, #row, #td {
   border: 3px ridge #ff8c00;
+  margin-left: 20px;
 }
 .copyright {
   color: #595959;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 li cite:before {
   content: '–';
   margin-right: 5px;
   padding-left: 10px;
 }
+.follow {
+  padding-left: 20px;
+}
+.message {
+  padding-left: 20px;
+}
+
+
 @media screen and (max-width: 480px) {
   html {
     font-size: 10px;
@@ -189,6 +229,7 @@ li cite:before {
   }
   .table {
     border: 3px ridge #ff8c00;
+    padding-left: 20px;
   }
   .copyright {
     color: #595959;
