@@ -109,7 +109,7 @@ a {
   color: #ce9178;
 }
 a:hover {
-  border-bottom: 1px solid white;
+  opacity: 0.75;
 }
 a:visited {
   color: #569cd6;
