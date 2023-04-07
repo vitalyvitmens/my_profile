@@ -66,7 +66,7 @@ h3 {
   border: 1.5px solid #ff8c00;
   border-radius: 10px;
 }
-.media iframe:hover {
+iframe:hover {
   opacity: 0.75;
 }
 
@@ -186,6 +186,13 @@ li cite:before {
     border: 3px solid green;
     border-radius: 5px;
   }
+  .media iframe {
+    border: 1.5px solid #ff8c00;
+    border-radius: 10px;
+  }
+  iframe:hover {
+    opacity: 0.75;
+  }
   input[type='submit'] {
     background-color: green;
     border: none;
@@ -221,7 +228,7 @@ li cite:before {
     color: #ce9178;
   }
   a:hover {
-    border-bottom: 1px solid white;
+    opacity: 0.75;
   }
   a:visited {
     color: #569cd6;
