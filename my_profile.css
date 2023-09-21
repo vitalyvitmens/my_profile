@@ -12,6 +12,12 @@ body {
   margin: auto;
 }
 
+#experience {
+  color: #ff8c00;
+}
+#summary {
+  color: #9cdcfe;
+}
 .container h2,
 h3 {
   padding: 0px 20px;
@@ -115,9 +121,6 @@ a {
 }
 a:hover {
   opacity: 0.75;
-}
-a:visited {
-  color: #569cd6;
 }
 #row {
   color: #ce9178;
